@@ -1,0 +1,879 @@
+@font-face {
+    font-family: maxine;
+    src: url('Sloop-ScriptThree.ttf');
+}
+
+/* NAVBAR */
+
+.navbar {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+
+.navbar-custom {
+    background-color: rgb(222, 213, 247);
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #5b5757;
+    font-size: 15px;
+    font-family: "Questrial", sans-serif;
+}
+
+.navbar-brand{
+    margin-right: 10%;
+    margin-left: 3%;
+    width: 75px;
+    display: flex;
+    align-items: center;
+}
+.nav-link{
+    margin-left: 20px;
+}
+
+.navbar-custom .nav-link.active {
+    color: #5b5757;
+}
+
+.hero {
+    background-image: url('assets/img/ACADEMIC/BACKGROUND/Main Page.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 45px;
+}
+.start-btn {
+    margin-top: 400px;
+    color: #000000;
+    color: #000000;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    border-style: none;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #f2f2f2, -6px -6px 12px #cfb8d4;
+    z-index: 2;
+    position: relative;
+    font-family: "Questrial", sans-serif;
+}
+
+.start-btn:hover {
+        color: #ffffff;
+        box-shadow: inset 4px 4px 12px #c7abd6, inset -4px -4px 12px #e8bdf8;
+}
+
+/* ABOUT */
+
+.about{
+    background-image: url('assets/img/ACADEMIC/BACKGROUND/About Me.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 100vh;
+    position: relative;
+}
+
+.about h1{
+    color: white;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 3px;
+    font-size: 80px;
+    margin-left: 36%;
+    padding-top: 290px;
+    line-height: 4px;
+}
+.about h2{
+    color: white;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 3px;
+    font-size: 80px;
+    margin-left: 39%;
+    padding-top: 4px;
+    z-index:1;
+}
+.about h3 {
+    color: #e8bdf8;
+    font-family: "maxine", serif;
+    font-weight: 300;
+    font-style: normal;
+    white-space: nowrap;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 51%;
+    left: 790px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-size: 140px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+.about2 {
+    background-image: url('assets/img/ACADEMIC/BACKGROUND/About Me.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 100vh;
+    position: relative;
+}
+.about2 h1{
+    color: white;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 57px;
+    margin-left: 75px;
+    padding-top: 200px;
+    line-height: 10px;
+}
+.about2 h2 {
+    color: white;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 57px;
+    margin-left: 75px;
+    padding-top: 32px;
+    line-height: 10px;
+}
+.about2 h3{
+    color: #e8bdf8;
+    font-family: "maxine", serif;
+    font-weight: 90;
+    font-style: normal;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 240px;
+    margin-left: 545px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-size: 120px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+.about2 p {
+    color: white;
+    font-family: "Questrial", sans-serif;
+    font-weight:normal;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-left: 75px;
+    padding-top: 32px;
+}
+/* WORK EXPERIENCE */
+.work{
+    background-image: url('assets/img/ACADEMIC/BACKGROUND/Work Experience, Skills : Software Skills Background.png');
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+
+}
+.work h1{
+    color: white;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 65px;
+    margin-left: 95px;
+    padding-top: 100px;
+    line-height: 10px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+.work h2{
+    color: #ffffff;
+    font-family: "maxine", serif;
+    font-weight: 90;
+    font-style: normal;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 175px;
+    margin-left:115px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-size: 130px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+.work h3{
+    color: white;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 65px;
+    margin-left: 169px;
+    padding-top: 50px;
+    line-height: 10px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+.work-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 1px;
+    padding-left: 35%;
+    margin-bottom: 170px;
+}
+
+.work-entry {
+    display: flex;
+    align-items: flex-start;
+    gap: 1px;
+    margin-top: 5px;
+}
+
+.year {
+    flex: 0.5;
+}
+
+.year h1 {
+    font-family: "Questrial", sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: #000;
+    margin: 0;
+    line-height: 1;
+}
+
+.job {
+    flex: 3;
+    height: 40px;
+    padding-top: 30px;
+}
+
+.job h1 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 100;
+    font-size: 18px;
+    color: #000;
+    margin: 0;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+
+.job h4 {
+    font-family: "DM Serif Display", serif;
+    letter-spacing: 0.5px;
+   font-size: 12px;
+
+}
+
+.job p {
+    font-family: "Questrial", sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    margin-top: 12px;
+   line-height: 1;
+}
+/* ACADS */
+.acads{
+    background-image: url('assets/img/ACADEMIC/BACKGROUND/Education : Contact Background.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 150vh;
+    position: relative;
+}
+.education .card{
+    margin-top: -600;
+}
+.card {
+    width: 180px;
+    justify-content: center;
+
+  }
+.card-text {
+    text-align: center;
+    font-size: 10px;
+    font-family: "Questrial", sans-serif;
+    margin: 0 auto;
+    max-width: 80%;
+    margin-top: 0;
+    line-height: 1.2;
+}
+.card-text-level {
+    text-align: center;
+    font-size: 12px;
+    font-family: "DM Serif Display", serif;
+    margin: 0 auto;
+    margin-top: -10px;
+    max-width: 80%;
+    line-height: 1;
+}
+.card-text-year {
+    text-align: center;
+    font-size: 14px;
+    font-family: "Questrial", sans-serif;
+    margin-left: 5px;
+    margin-top: 5px;
+    max-width: 90%;
+    line-height: 1.5;
+    color: white;
+    background-image: linear-gradient(to right, rgb(49, 47, 52), rgb(71, 68, 72));
+    border-radius: 20px;
+}
+.majors{
+        text-align: center;
+        font-size: 10px;
+        font-family: "Questrial", sans-serif;
+        margin: 0 auto;
+        max-width: 80%;
+        margin-top: 12px;
+        line-height: .8;
+}
+.majors::after {
+        content: '';
+        display: block;
+        width: 110%;
+        height: 1px;
+        background-color: rgb(85, 69, 69);
+        margin: 5px auto 0;
+}
+.card-body ul li{
+        text-align: justify;
+        font-size: 12px;
+        font-family: "Questrial", sans-serif;
+        margin: 0 auto;
+        max-width: 80%;
+        margin-top: 10px;
+        line-height: 1;
+        list-style: circle;
+        margin-right: 20px;
+}
+
+.acads h1{
+    color: white;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 65px;
+    margin-left: 600px;
+    padding-top: 200px;
+    line-height: 10px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+.acads h2{
+    color: #ffffff;
+    font-family: "maxine", serif;
+    font-weight: 90;
+    font-style: normal;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 220px;
+    margin-left:525px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-size: 200px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+.acads h3{
+    color: white;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 65px;
+    margin-left: 600px;
+    padding-top: 34px;
+    line-height: 1px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    margin-bottom: -20px;
+}
+
+
+/* ACHIEVEMENTS */
+
+.achievements{
+    background-image: url('assets/img/ACADEMIC/BACKGROUND/Work Experience, Skills : Software Skills Background.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    height: 110vh;
+    position: relative;
+}
+.recognition-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    margin-top: 29px;
+    padding-left: 35%;
+    margin-bottom: 120px;
+}
+
+
+.award-entry {
+    display: flex;
+    align-items: flex-start;
+    gap: 1px;
+}
+
+
+.award-entry .year {
+    flex: 0.8;
+}
+
+.award-entry .year h1 {
+    font-family: "Questrial", sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    color: #000;
+    margin:0;
+    line-height: 2px;
+    padding-top:100px;
+
+}
+
+
+.award {
+    flex: 2;
+    height: 20px;
+}
+.achievements .work .h1{
+    color: white;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 65px;
+    margin-left: 95px;
+    padding-top: 100px;
+    line-height: 10px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+.achievements .work h2{
+    color: #ffffff;
+    font-family: "maxine", serif;
+    font-weight: 90;
+    font-style: normal;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 175px;
+    margin-left:115px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-size: 130px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+.achievements .work h3{
+    color: white;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 65px;
+    margin-left: 200px;
+    padding-top: 50px;
+    line-height: 10px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+.award h1 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 100;
+    font-size: 18px;
+    color: #000;
+    margin: 0;
+    padding-top: 65px;
+    padding-bottom: 10px;
+}
+
+.award h4 {
+    font-family: "DM Serif Display", serif;
+    letter-spacing: 0.5px;
+   font-size: 12px;
+
+}
+
+.award p {
+    font-family: "Questrial", sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    margin-top: 12px;
+   line-height: 1;
+}
+
+/* SKILLS */
+.skills{
+    background-image: url('assets/img/ACADEMIC/BACKGROUND/Work Experience, Skills : Software Skills Background.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 100vh;
+    position: relative;
+}
+.header{
+    font-family: "DM Serif Display", serif;
+    font-size: 50px;
+    margin-left: 35%;
+    color: white;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+.skills h1{
+        color: #ffffff;
+        font-family: "maxine", serif;
+        font-weight: 200;
+        font-style: normal;
+        white-space: nowrap;
+        letter-spacing: 1px;
+        position: absolute;
+        top: 120px;
+        margin-left:615px;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        font-size: 130px;
+        -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+.skills h2{
+    color: white;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 65px;
+    margin-left: 760px;
+    padding-top: 10px;
+    line-height: 10px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+.container{
+    padding-top: 280px;
+    width: 930px;
+    margin: 0 auto;
+  }
+  @keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-webkit-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-moz-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-o-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+.skillbar{
+    background-color:rgb(248, 248, 248);
+    padding: 5px;
+    border-radius: 15px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    &::before{
+      content:  attr(data-skill);
+      display: inline-block;
+      padding: 5px 0 5px 10px;
+      border-radius: inherit;
+      animation: load 2s 0s;
+      -webkit-animation: load 2s 0s;
+      -moz-animation: load 2s 0s;
+      -o-animation: load 2s 0s;
+    }
+    &.learning::before{
+      width: calc(100% - 20px);
+      background: #000000;
+    }
+    &.basic::before{
+      width: calc(90% - 14px);
+      background: #000000;
+    }
+    &.intermediate::before{
+      width: calc(90% - 14px);
+      background: #000000;
+    }
+    &.advanced::before{
+      width: calc(100% - 20px);
+      background: #000000;
+    }
+    &.expert::before{
+      width: calc(80% - 14px);
+      background: #000000;
+    }
+  }
+
+/* Software Section */
+.software {
+    background-image: url('assets/img/ACADEMIC/BACKGROUND/Work Experience, Skills : Software Skills Background.png');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    min-height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.software {
+    background-image: url('assets/img/ACADEMIC/BACKGROUND/Work Experience, Skills : Software Skills Background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 110vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.software h1 {
+    color: white;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 65px;
+    margin-left: 95px;
+    padding-top: 100px;
+    line-height: 10px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+.software h2 {
+    font-family: "Maxine", serif;
+    font-size: 130px;
+    position: relative;
+    top: 50px;
+    z-index: 2;
+    margin-left: -240px;
+    margin-top: -80px;
+}
+.software h3 {
+    color: white;
+    font-family: "DM Serif Display", serif;
+    font-size: 65px;
+    line-height: 1;
+    margin-top: -160px;
+    margin-left: 25px;
+}
+
+.software .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    justify-items: center;
+    padding: 1rem 40px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.skill-box {
+    padding: 1rem;
+    transition: transform 0.3s ease-in-out;
+    width: 10%;
+    max-width: 150px;
+    cursor: pointer;
+}
+.software .container h3{
+    color: rgb(0, 0, 0);
+    font-family: "Questrial", sans-serif;
+    font-size: 22px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+.skill-box:hover {
+    transform: scale(1.05);
+}
+
+.skill-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1;
+    gap: 1;
+    position: relative;
+}
+
+.skill-box:hover > .skill-title::after,
+.skill-box:hover > .skill-title::before {
+    width: 35px;
+}
+.skill-title::before,
+.skill-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 4px;
+    background-color: #9b5aab;
+    transition: width 0.5s;
+    border-radius: 2px;
+}
+.skill-title::before {
+    left: 50%;
+    width: 0;
+    border-radius: 0 2px 2px 0;
+}
+.skill-title::after {
+    right: 50%;
+    width: 0;
+    border-radius: 2px 0 0 2px;
+}
+
+.img {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: transform 0.3s;
+    margin-bottom: -40px;
+}
+
+
+.skill-title h3 {
+    color: #000;
+    font-size: 1rem;
+    margin-top: 0;
+    font-weight: 500;
+}
+.skill-box:hover .img {
+    transform: translateY(-8px);
+}
+
+.skill-icon {
+    width: 50px;
+    z-index: 2;
+}
+
+.skill-title h3 {
+    color: #000;
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 500;
+}
+
+/* CONTACT */
+.footer{
+    background-image: url('assets/img/ACADEMIC/BACKGROUND/Education : Contact Background.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 105vh;
+    position: relative;
+}
+.footer h1{
+    color: white;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 65px;
+    margin-left: 105px;
+    padding-top: 100px;
+    line-height: 10px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+.footer h2{
+    color: #e8bdf8;
+    font-family: "maxine", serif;
+    font-weight: 90;
+    font-style: normal;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 135px;
+    margin-left:345px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-size: 130px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+.footer h3{
+    color: white;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 65px;
+    margin-left: 349px;
+    padding-top: 80px;
+    line-height: 10px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+.phone h1{
+    font-family: "DM Serif Display", serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 880px;
+    font-weight: 400;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+.phone p{
+    font-family: "Questrial", sans-serif;
+    font-size: 22px;
+    color: white;
+    margin-left: 880px;
+    font-weight: normal;
+    -webkit-text-stroke: none;
+    padding-top: 10px;
+}
+.email h1{
+    font-family: "DM Serif Display", serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 880px;
+    font-weight: 400;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+.email p{
+    font-family: "Questrial", sans-serif;
+    font-size: 22px;
+    color: white;
+    margin-left: 880px;
+    font-weight: normal;
+    -webkit-text-stroke: none;
+    padding-top: 10px;
+}
+.socials h1{
+    font-family: "DM Serif Display", serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 880px;
+    font-weight: 400;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
