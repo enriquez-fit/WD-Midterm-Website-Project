@@ -9,11 +9,11 @@
     <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Midterm Website Project</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  This is my Midterm Project for the subject CCS0027L - Web Design with Client Side Scripting. The purpose of this project is to show what I have learned in the course and apply this by making a One Page Resume. The key components of this project is about me, my work experience, my academic background, my achievemntsm, my portfolio, and my skills. The technology that was used is Visual Studio Code, HTMl for the structure and CSS for the styling and layout.
 </div>
 
 <br />
