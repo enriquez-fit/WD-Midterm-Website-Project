@@ -68,6 +68,8 @@ Description of the project in details.
 - Bootstrap Carousel
 - Containers
 - Buttons
+- Image Effects
+- Overlapping Fonts
 
 ### Technology
 <!-- TODO: List of Technology Used -->
